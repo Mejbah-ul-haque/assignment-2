@@ -114,7 +114,7 @@ Popular Collection
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 30px;
-  margin: 0 0px;
+  margin: 30px 80px 100px;
 }
 .product {
   box-shadow: 0 1px 5px rgba(179, 178, 178, 0.8);
@@ -127,7 +127,7 @@ Popular Collection
 .product-title {
   font-size: 2em;
   font-family: Arial, Helvetica, sans-serif;
-  color: #1f1e1e;
+  color: #1f1e1f;
   margin: 7px 0;
 }
 .price {
@@ -155,4 +155,27 @@ Popular Collection
   color: #838383;
   font-family: sans-serif;
   line-height: 1.4;
+}
+/* ----------------*\
+   Footer
+\*---------------- */
+footer {
+  background-color: rgb(19, 18, 19);
+  text-align: center;
+  padding: 20px;
+}
+.white-color {
+  font-size: 35px;
+  font-family: cursive;
+}
+.white {
+  color: snow;
+}
+.footer-span {
+  color: tomato;
+}
+.smedia {
+  font-size: 2em;
+  color: rgb(185, 183, 183);
+  margin: 10px;
 }
