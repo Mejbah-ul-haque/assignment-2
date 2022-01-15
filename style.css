@@ -9,14 +9,14 @@ font-family: "Russo One", sans-serif;
 
 /* Style */
 body {
-  width: 1200px;
   margin: 0 auto;
 }
 /* -----------------*\
  navigation-bar
  \*-----------------*/
 .container {
-  margin: 0 50px;
+  margin: 0 auto;
+  width: 1200px;
 }
 .navigation-bar {
   display: flex;
@@ -83,4 +83,67 @@ p {
 }
 .button {
   margin: 40px 0;
+}
+/* --------------*\
+Logo Section
+\*--------------- */
+
+/* -------------------*\
+Popular Collection
+\*-------------------- */
+
+.section-title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #838383;
+  margin-top: 3px;
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.product {
+  box-shadow: 0 1px 5px rgba(179, 178, 178, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+}
+.product .product-banner img {
+  width: 100%;
+}
+.product-title {
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1f1e1e;
+  margin: 7px 0;
+}
+.price {
+  font-size: 2em;
+  font-family: monospace;
+  color: #555555;
+  margin: 10px 0;
+}
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.fa-star {
+  font-size: 14px;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.emty {
+  color: #aeaeae;
+}
+.pro-description {
+  font-size: 17px;
+  color: #838383;
+  font-family: sans-serif;
+  line-height: 1.4;
 }
