@@ -24,11 +24,15 @@ body {
   align-items: center;
 }
 .navigation-bar h1 {
-  font-size: 2em;
+  font-size: 1.9em;
+  font-family: Russo One;
+  color: #525152;
+  letter-spacing: 3px;
 }
 .navigation-bar a {
+  font-family: Russo One;
+  color: #8b8a8a;
   text-decoration: none;
-  color: black;
   margin-right: 20px;
 }
 .fas {
@@ -38,7 +42,9 @@ body {
   font-size: 1.3em;
 }
 
-/* Lead section */
+/*--------------------*\
+     Lead section 
+\*--------------------*/
 .lead-section {
   display: flex;
   justify-content: space-between;
@@ -100,8 +106,10 @@ Logo Section
   list-style: none;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  justify-content: center;
   grid-gap: 10px;
-  margin: 70px 0;
+  margin: 100px 0;
   padding: 20px 100px;
   border-top: 1px solid rgb(231, 231, 231);
   border-bottom: 1px solid rgb(231, 231, 231);
@@ -133,11 +141,19 @@ Popular Collection
   padding: 20px;
   border-radius: 10px;
 }
+.product-banner {
+  overflow: hidden;
+}
 .product .product-banner img {
   width: 100%;
+  transition: linear 2s;
 }
+.product:hover .product-banner img {
+  transform: scale(1.2);
+}
+
 .product-title {
-  font-size: 2em;
+  font-size: 1.7em;
   font-family: Arial, Helvetica, sans-serif;
   color: #1f1e1f;
   margin: 7px 0;
@@ -168,6 +184,49 @@ Popular Collection
   font-family: sans-serif;
   line-height: 1.4;
 }
+/* -----------------------
+Special Section 
+------------------------*/
+.special {
+  display: block;
+  width: 400px;
+  margin: 20px auto;
+}
+.special h2 {
+  font-family: cursive;
+  font-size: 1.5em;
+  color: #e02c6d;
+  font-weight: 800;
+}
+.special p {
+  font-size: 1.1em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #838383;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  grid-template-columns: repeat(4, 1fr);
+  border-top: 1px solid lightgray;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.key-person-pic {
+  align-items: center;
+}
+.rounded {
+  border-radius: 50%;
+  border: 2px solid rgb(182, 182, 179);
+}
+.detail {
+  text-align: center;
+}
 /* ----------------*\
    Footer
 \*---------------- */
@@ -175,6 +234,7 @@ footer {
   background-color: rgb(19, 18, 19);
   text-align: center;
   padding: 20px;
+  margin-top: 100px;
 }
 .white-color {
   font-size: 35px;
