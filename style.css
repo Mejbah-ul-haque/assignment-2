@@ -199,7 +199,7 @@ Special Section
 .special h2 {
   font-family: cursive;
   font-size: 1.5em;
-  color: #8115ac;
+  color: red;
   font-weight: 800;
 }
 .actions {
@@ -243,7 +243,7 @@ a {
    Footer
 \*---------------- */
 footer {
-  background-color: #240331;
+  background-color: #202020;
   text-align: center;
   padding: 20px;
   margin-top: 100px;
@@ -252,7 +252,7 @@ footer {
   font-size: 30px;
   font-family: Russo One;
   letter-spacing: 3px;
-  font-weight: 500;
+  font-weight: ;
 }
 .white {
   color: snow;
