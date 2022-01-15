@@ -28,8 +28,9 @@ body {
 .navigation-bar h1 {
   font-size: 1.9em;
   font-family: Russo One;
-  color: #525152;
+  color: rgb(252, 2, 2);
   letter-spacing: 3px;
+  text-shadow: 0 0 3px #cccaca, 0 0 5px #a1a0a0;
 }
 .navigation-bar a {
   font-family: Russo One;
@@ -66,7 +67,7 @@ body {
   margin-right: 200px;
 }
 .lead-heading {
-  color: #3a3a3a;
+  color: #5e5c5c;
   font-size: 50px;
   font-family: sans-serif;
 }
@@ -240,9 +241,11 @@ a {
 .detail {
   text-align: center;
 }
+
 /* ----------------*\
    Footer
 \*---------------- */
+
 footer {
   background-color: #202020;
   text-align: center;
@@ -270,7 +273,8 @@ footer {
 
 /* ---------------------
       Media Queries
-    -------------------*/
+------------------------*/
+
 /* Mobile Devices */
 @media only screen and (max-width: 688px) {
   .container {
@@ -278,7 +282,7 @@ footer {
     margin: 10px;
   }
   .navigation-bar h1 {
-    letter-spacing: 1.5px;
+    letter-spacing: 1.4px;
     margin-bottom: 0;
     padding: 0;
   }
@@ -295,10 +299,17 @@ footer {
     align-items: center;
   }
   .lead-heading {
+    text-align: center;
     font-size: 30px;
+  }
+  .lead-para {
+    text-align: center;
   }
   .half-width {
     width: 100%;
+  }
+  .button {
+    text-align: center;
   }
   .half-width:first-child {
     margin-right: 0px;
@@ -324,8 +335,16 @@ footer {
   .services {
     grid-template-columns: repeat(1, 1fr);
   }
+  .white-color {
+    font-size: 25px;
+    letter-spacing: 2px;
+  }
 }
-/* Tablet Devices */
+
+/* --------------
+Tablet Devices 
+-------------------*/
+
 @media only screen and (min-width: 688px) and (max-width: 992px) {
   .container {
     width: 95%;
