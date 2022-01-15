@@ -42,6 +42,7 @@ body {
 .lead-section {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .picture {
   transition: linear 2s;
@@ -95,7 +96,18 @@ p {
 /* --------------*\
 Logo Section
 \*--------------- */
-
+.logo {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 10px;
+  margin: 70px 0;
+  padding: 20px 100px;
+  border-top: 1px solid rgb(231, 231, 231);
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+.logo li {
+}
 /* -------------------*\
 Popular Collection
 \*-------------------- */
